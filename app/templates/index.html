@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Password Protection</title>
+</head>
+<body>
+    <h1>PDF Password Protection</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="pdf_file">Select a PDF file:</label>
+        <input type="file" id="pdf_file" name="pdf_file" required>
+        <br>
+        <label for="password">Enter a password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="output_file_name">Output file name:</label>
+        <input type="text" id="output_file_name" name="output_file_name" required>
+        <br>
+        <input type="submit" value="Protect PDF">
+    </form>
+</body>
+</html>
